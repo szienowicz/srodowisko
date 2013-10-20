@@ -46,7 +46,7 @@ printf("n3=%i\n",n3);
 }
 ```
 
-zad3
+zad4
 ```c
 #include <stdio.h>
 
