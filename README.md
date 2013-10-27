@@ -1,6 +1,6 @@
 #rozwiazania
 
-zad1
+zad1 - podaje liczby z tabeli w odwrotnej kolejnosci
 ```c
 #include <stdio.h>
 int main()
@@ -13,9 +13,9 @@ return 0;
 }
 ```
 
-zad2
+zad2 - wyswietla sume kwadratów od 1 do n
 ```c
-include <stdio.h>
+#include <stdio.h>
 
 main ()
 {
@@ -25,11 +25,11 @@ printf("podaj liczbe\n");
 scanf("%i",&n);
 for (i=1; i<=n; i=i+1)
 suma=suma+i*i;
-printf("podana liczba to %i\n",suma);
+printf("suma kwadratow od 1 do podanej liczby wynosi %i\n",suma);
 }
 ```
 
-zad3
+zad3 - liczy operacje matematyczne
 ```c
 #include <stdio.h>
 
@@ -59,7 +59,7 @@ return 0;
 
 }
 ```
-zad4
+zad5
 ```c
 #include <stdio.h>
 
@@ -73,7 +73,7 @@ return 0;
 }
 ```
 
-zad5
+zad6
 ```c
 #include <stdio.h>
 
@@ -89,7 +89,7 @@ return 0;
 }
 ```
 
-zad6 
+zad7 - przelicza liczbe z systemu dziesietnego na dwojkowy
 ```c
 #include <stdio.h>
 main(){
